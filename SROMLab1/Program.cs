@@ -64,18 +64,19 @@ namespace Polinomial_Basis
             
             ulong n, carry = 0;
             ulong[] C = new ulong[a.Length+1];
-            for (int i = 0; i < a.Length; i++)
-            {
-                carry = a[i]; //берем элемент
+           
+           
+            for (int i = a.Length - 1; i >= 0; i--)
+            {   carry = a[i]; //берем элемент
                 carry = carry >> shift; //сдвиигаем
-                C[i] = carry; //присваиваем соотвественому С
+                C[i] = carry << 64 - shift; //присваиваем соотвественому С
             }
             C[C.Length - 1] = carry;
             return C;
         }
 
-
         
+
         static void Main(string[] args)
         {
 
@@ -83,7 +84,7 @@ namespace Polinomial_Basis
             ulong[] a = BinStr_ToByte("01111001110101001111110110010100000111111010001110110010011000111010000010111101010010111110110110000010010001101001111110010101111010111110110101010010100010100110111110101");
 
             ulong[] b = BinStr_ToByte("11101101000001011000101100010011101100000011011101100001000101110100101111000110111011100000110110000001101001000100001000001110011101000010000001100011001011000111011010001");
-           // Console.WriteLine(Byte_To_Binary_String(Add(a, b)));
+           Console.WriteLine(Byte_To_Binary_String(LongShiftBitsToRight(a, 1)));
 
          
             Console.ReadKey();
