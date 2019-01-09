@@ -1,0 +1,11 @@
+C:\Users\Костя\Desktop\Лабы\SROM-master\SROMLab1\obj\Debug\SROMLab4.csprojAssemblyReference.cache
+C:\Users\Костя\Desktop\Лабы\SROM-master\SROMLab1\obj\Debug\SROMLab4.csproj.CoreCompileInputs.cache
+C:\Users\Костя\Desktop\Лабы\SROM-master\SROMLab1\obj\Debug\SROMLab1.exe
+C:\Users\Костя\Desktop\Лабы\SROM-master\SROMLab1\obj\Debug\SROMLab1.pdb
+C:\Users\Костя\Desktop\Лабы\SROM-master\SROMLab1\bin\Debug\SROMLab1.exe.config
+C:\Users\Костя\Desktop\Лабы\SROM-master\SROMLab1\bin\Debug\SROMLab1.exe
+C:\Users\Костя\Desktop\Лабы\SROM-master\SROMLab1\bin\Debug\SROMLab1.pdb
+C:\Users\Костя\Desktop\Лабы\SROM-master\SROMLab1\bin\Debug\nunit.framework.dll
+C:\Users\Костя\Desktop\Лабы\SROM-master\SROMLab1\bin\Debug\nunit.framework.pdb
+C:\Users\Костя\Desktop\Лабы\SROM-master\SROMLab1\bin\Debug\nunit.framework.xml
+C:\Users\Костя\Desktop\Лабы\SROM-master\SROMLab1\obj\Debug\SROMLab4.csproj.CopyComplete

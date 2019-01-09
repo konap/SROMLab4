@@ -72,13 +72,7 @@ namespace Polinomial_Basis
 
             ulong[] b = BinStr_ToByte("11110100100000110110001000111011111100100111111111010110111100101001110011011101011001000001110011101101011011110010110111101011010111000111111000101111111101110100111011000");
             Console.WriteLine(Byte_To_Binary_String(Add(a, b)));
-            // Console.WriteLine(Bite_to_String((Mod(c))));
-            // Console.WriteLine(PolGenerator(179,4,2,1));
-
-
-
-            // Console.WriteLine(Bite_to_String(c));
-
+            
             Console.ReadKey();
         }
     }
